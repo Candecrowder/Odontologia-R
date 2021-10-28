@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+            <title>Odontologia Trenque Lauquen</title>
+            <meta name="keywords="content="Odontologia,Odontologa,Dentista,Salud,UBA,Salud dental">
+            <meta name="description="content="En nuestro sitio podrás solicitar una cita con la odontologa Angeles Capó, además de obtener información acerca de nuestros tratamientos y presupuestos">
+            <link rel="stylesheet" href="css/pruebacss.css">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Raleway:wght@100&display=swap" rel="stylesheet">
+        </head>
+        <div class="container-fluid">
+            <body>
+                <!----menu de navegacion-->
+                <header>
+                  <div class="container-fluid">
+                    <header>
+                      <nav class="navbar navbar-expand-xxl border-3 border-bottom border-primary" style="background-color: whitesmoke;">
+                      <div class="container-fluid"></div>
+                      <a href= "index.htm" class="navbar-brand">
+                      <img src="Imagenes/pruebalogo.jpg">
+                      </a>
+                      <button type="button" class="navbar-toggler" style="color: grey; border:grey" data-bs-toggle="collapse" data-bs-target="#MenuNav">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div id="MenuNav" class="collapse navbar-collapse">
+                        <ul class="navbar-nav ms-3">
+                          <li class="nav-item">
+                            <a class="nav-link" href="index.htm">Inicio</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href= "contacto.htm">Contacto</a>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href= "QS.htm" role="button" data-bs-toggle="dropdown">Formación profesional</a>
+                            <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="QS.htm">Cursos</a></li>
+                            <li><a class="dropdown-item" href="QS.htm">Formación academica</a></li>
+                            <li><a class="dropdown-item" href="QS.htm">Capacitaciones</a></li>
+                            <li><a class="dropdown-item" href="QS.htm">Seminarios</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="tratamientos.htm">Tratamientos</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="politicas.htm">Politicas de reserva y cancelación</a>
+                          </li>
+                        </ul> 
+                      </div>
+                      </nav>
+                      </div>                      
+                </header>
+                <!---menu de navegacion-->
+     <div class="main">
+        <main>
+            <div id="seccionContacto__flex">
+                <div id="consulta__flex">
+                    <form action="">
+                        <textarea name="" id="Ingrese su consulta" placeholder="Ingrese su consulta" class="form-control"></textarea>
+                </div>
+                <div id="telefono__flex">
+                            <p class="contacto__tele"> Ingrese su numero de contacto</p>
+                        <input type= "number" class="form-control">
+                </div>
+                 <div id="email__flex">
+                 <p class="contacto__email"> Ingrese su Email</p>
+                 <input type="text" class="form-control">
+                 </div>
+                    <div id="preferencial__flex">
+                        <p class="contacto__preferencial">Seleccione su metodo de contacto preferencial</p>
+                        <select name="" id="">
+                            <option value="">Whatsapp</option>
+                            <option value="">Email</option>
+                            <option value="">Llamada</option>
+                            <option value="">Mensaje de texto</option>
+                        </select>
+                    </div>
+                    <div id="tipo__flex">
+                        <p class="contacto__consulta">Seleccione su tipo de consulta</p>
+                        <select name="" id="">
+                            <option value="">Obra social</option>
+                            <option value="">Particular</option>
+                        </select>
+                    </div>
+                   <div id="agenda__flex">
+                    <p class="contacto__agenda">Seleccione su turno</p>
+                    <select name="" id=""></select>
+                   </div>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Enviar formulario
+                    </button>
+                    
+                   <!-- Modal -->
+                   <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                   <div class="modal-dialog">
+                   <div class="modal-content">
+                   <div class="modal-header">
+                   <h5 class="modal-title" id="exampleModalLabel">Al enviar este formulario usted está aceptando nuestras politicas de reserva y cancelación</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Leer politicas de reserva y cancelación</button>
+          <button type="button" class="btn btn-secondary">Aceptar y enviar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+                    </form>
+            
+            </div>
+     </div>
+    </main>
+   
+  </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    </body>
+        </div>
+</html>
